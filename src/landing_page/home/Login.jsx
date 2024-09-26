@@ -1,26 +1,26 @@
 import React from "react";
 
-const Pricing = () => {
+const Login = () => {
   return (
     <div>
       <section className="bg-white dark:bg-gray-900">
         <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-          <div className="hidden lg:mt-0 lg:col-span-5 lg:flex mr-10 md:mr-18 lg:mr-20">
-            <img src="images/taka.png" alt="taka" />
+          <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
+            <img src="images/homeHero.png" alt="login" />
           </div>
-          <div className="mx-auto place-self-center lg:col-span-7">
-            <h1 className="max-w-2xl mb-5 text-4xl font-semibold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
-            Best deals with proper prices 
+          <div className="flex flex-col flex-wrap justify-center items-center lg:mx-auto place-self-center lg:col-span-7 ">
+            <h1 className="max-w-2xl mb-2 text-4xl font-semibold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
+              Start Investing
             </h1>
             <p className="max-w-2xl mb-2 font-light text-gray-500 lg:mb-3 md:text-lg lg:text-xl dark:text-gray-400">
-            We pioneered the concept of discount broking and price transparency in Bangladesh. Flat fees and no hidden charges.
-            Just invest freely and make money.
+              Online platform to invest in stocks, derivatives, mutual funds,
+              ETFs, bonds, and more.
             </p>
-            <a
+            <div><a
               href="#"
               className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
             >
-              See pricing
+              Sign up for free
               <svg
                 className="w-5 h-5 ml-2 -mr-1"
                 fill="currentColor"
@@ -34,6 +34,12 @@ const Pricing = () => {
                 ></path>
               </svg>
             </a>
+            <a
+              href="#"
+              className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+            >
+              Log in
+            </a></div>
           </div>
         </div>
       </section>
@@ -41,4 +47,4 @@ const Pricing = () => {
   );
 };
 
-export default Pricing;
+export default Login;
