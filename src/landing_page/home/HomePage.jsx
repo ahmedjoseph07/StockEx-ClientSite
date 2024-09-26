@@ -12,19 +12,17 @@ const HomePage = () => {
   return (
     <>
     <Navbar/>
-    <hr />
     <Hero/>
-    <hr />
+    <hr className='w-[85vw] mx-auto' />
     <Login/>
-    <hr />
+    <hr className='w-[85vw] mx-auto' />
     <Stats/>
-    <hr />
+    <hr className='w-[85vw] mx-auto' />
     <Pricing/>
-    <hr />
+    <hr className='w-[85vw] mx-auto' />
     <Education/>
-    <hr />
     <OpenAccount/>
-    <hr />
+    <hr className='mx-auto' />
     <Footer/>
     </>
   )
