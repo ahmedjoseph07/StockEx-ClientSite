@@ -9,12 +9,12 @@ const TypingComponent = () => {
   useEffect(() => {
     const options = {
       strings: [
-        "Welcome to StockEx..",
-        "Learn trading..",
+        "Welcome to StockEx",
         "Invest in everything",
+        "",
       ], // Strings to display
-      typeSpeed: 120, // Typing speed
-      backSpeed: 70, // Backspacing speed
+      typeSpeed: 50, // Typing speed
+      backSpeed: 30, // Backspacing speed
       loop: true, // Loop the typing effect
     };
 

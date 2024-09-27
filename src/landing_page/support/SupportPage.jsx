@@ -1,10 +1,13 @@
 import React from 'react'
+import Hero from '../support/Hero'
+import RaiseTicket from './RaiseTicket'
 
 const SupportPage = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+    <Hero/>
+    <RaiseTicket/>
+    </>
   )
 }
 
