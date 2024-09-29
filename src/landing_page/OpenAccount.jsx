@@ -6,7 +6,7 @@ const OpenAccount = () => {
       <section className="bg-white dark:bg-gray-900">
         <div className=" max-w-screen-xl px-4 py-8 text-center mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
             <div className="flex flex-col flex-wrap justify-center items-center lg:mx-auto place-self-center lg:col-span-7 ">
-              <h1 className="max-w-2xl mb-2 text-4xl font-semimbold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
+              <h1 className="max-w-2xl mb-2 text-3xl font-bold tracking-tight leading-none md:text-4xl xl:text-5xl dark:text-white">
                 Open a <span className="text-green-500">StockEx</span> account
               </h1>
               <p className="max-w-2xl mb-2 font-light text-gray-500 lg:mb-3 md:text-lg lg:text-xl dark:text-gray-400">

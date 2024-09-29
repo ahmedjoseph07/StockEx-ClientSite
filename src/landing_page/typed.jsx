@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import Typed from "typed.js";
 
+
 const TypingComponent = () => {
   // Create a reference for the element where typing will occur
   const el = useRef(null);
